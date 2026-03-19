@@ -1,0 +1,79 @@
+/* Base styles */
+body {
+  background-color: grey;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navigation */
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+nav ul li {
+  background-color: aliceblue;
+  padding: 7px 4px;
+  border-radius: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+/* Heading Section */
+.ueberschrift {
+  margin: 25px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ueberschrift h1,
+.ueberschrift p {
+  margin: 0;
+}
+
+/* Main Content Layout */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 0;
+  height: 50vh;
+}
+
+.content section {
+  padding: 8px 18px;
+  border: 2px solid black;
+}
+
+/* Section Styles */
+.projects,
+.education {
+  flex: 1;
+  height: 100%;
+  align-content: center;
+}
+
+.projects {
+  background-color: green;
+}
+
+.experience {
+  background-color: blue;
+}
+
+.openSourceWork {
+  background-color: pink;
+}
+
+.education {
+  background-color: red;
+}
